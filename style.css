@@ -1,0 +1,31 @@
+body{
+background:#0f172a;
+color:white;
+font-family:Arial;
+margin:0;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+padding:40px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.grid a{
+background:#1e293b;
+padding:30px;
+text-decoration:none;
+color:white;
+border-radius:10px;
+text-align:center;
+}
+
+.grid a:hover{
+background:#2563eb;
+}
